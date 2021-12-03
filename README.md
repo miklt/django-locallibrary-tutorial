@@ -39,3 +39,11 @@ To get this project up and running locally on your computer:
 1. Open a browser to `http://127.0.0.1:8000/admin/` to open the admin site
 1. Create a few test objects of each type.
 1. Open tab to `http://127.0.0.1:8000` to see the main site, with your new objects.
+
+## Deployment on Okteto
+Read this guide as reference.`https://michelet.gitbook.io/implantacao-okteto-e-docker/`
+
+Copy `Dockerfile` and `docker-compose.yaml` files to the root of your django repository
+Copy the `nginx` folder to the root of your django app repository
+
+For deploying on Okteto, you must create an account linked to your Github Profile. After that, you can deploy your repository. Use this guide as reference: `https://michelet.gitbook.io/implantacao-okteto-e-docker/criacao-arquivo-okteto-pipeline.yml`
